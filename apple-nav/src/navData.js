@@ -1,25 +1,25 @@
-export default navData = [
+export default [
     {
         id : 1,
         Name : "Mac",
-        link : "#",
+        link : "/mac",
         subLinks : [
-            { id:1, name:"MacBook", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/macbook__fjd32xo0xwmm_large.svg" },
-            { id:2, name:"MacBook Air", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/macbookair__by1vem70tkc2_large.svg " },
-            { id:3, name:"MacBook Pro", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/macbookpro__e0wcugzmt26a_large.svg" },
-            { id:4, name:"iMac", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/imac__dlz2ciyr6hm6_large.svg" },
-            { id:5, name:"iMac Pro", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/imac_pro__el8kcar06qky_large.svg" },
-            { id:6, name:"Mac Pro", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/macpro__dt69qr0ywncm_large.svg" },
-            { id:7, name:"Mac Mini", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/macmini__rzlk7b0xsmqq_large.svg" },
-            { id:8, name:"Accessories", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/mac_acc__fia3ihqup4ae_large.svg" },
-            { id:9, name:"Mojave", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/mac_osx__dq0x03ehapyu_large.svg" },
-            { id:10, name:"Compare", link:"#", img:"https://apple.com/v/mac/home/af/images/familybrowser/mac_comp__by57zw2zt32a_large.svg" },
+            { id:1, name:"MacBook", link:"/macbook", img:"https://apple.com/v/mac/home/af/images/familybrowser/macbook__fjd32xo0xwmm_large.svg" },
+            { id:2, name:"MacBook Air", link:"/macbook-air", img:"https://apple.com/v/mac/home/af/images/familybrowser/macbookair__by1vem70tkc2_large.svg " },
+            { id:3, name:"MacBook Pro", link:"/macbook-pro", img:"https://apple.com/v/mac/home/af/images/familybrowser/macbookpro__e0wcugzmt26a_large.svg" },
+            { id:4, name:"iMac", link:"/imac", img:"https://apple.com/v/mac/home/af/images/familybrowser/imac__dlz2ciyr6hm6_large.svg" },
+            { id:5, name:"iMac Pro", link:"/imac-pro", img:"https://apple.com/v/mac/home/af/images/familybrowser/imac_pro__el8kcar06qky_large.svg" },
+            { id:6, name:"Mac Pro", link:"/mac-pro", img:"https://apple.com/v/mac/home/af/images/familybrowser/macpro__dt69qr0ywncm_large.svg" },
+            { id:7, name:"Mac Mini", link:"/mac-mini", img:"https://apple.com/v/mac/home/af/images/familybrowser/macmini__rzlk7b0xsmqq_large.svg" },
+            { id:8, name:"Accessories", link:"/accessories", img:"https://apple.com/v/mac/home/af/images/familybrowser/mac_acc__fia3ihqup4ae_large.svg" },
+            { id:9, name:"Mojave", link:"mojave", img:"https://apple.com/v/mac/home/af/images/familybrowser/mac_osx__dq0x03ehapyu_large.svg" },
+            { id:10, name:"Compare", link:"compare", img:"https://apple.com/v/mac/home/af/images/familybrowser/mac_comp__by57zw2zt32a_large.svg" },
         ]
     },
     {
         id : 2,
         Name : "iPad",
-        link : "#",
+        link : "/ipad",
         subLinks : [
             { id:1, name:"iPad Pro", link:"#", img:"https://apple.com/v/ipad/home/aq/images/chapternav/ipadpro_light__dxq7nxjgsd2e_large.svg" },
             { id:2, name:"iPad Air", link:"#", img:"https://apple.com/v/ipad/home/aq/images/chapternav/ipadair_light__gan6yfrffc66_large.svg" },
@@ -35,7 +35,7 @@ export default navData = [
     {
         id : 3,
         Name : "iPhone",
-        link : "#",
+        link : "/iphone",
         subLinks : [
             { id:1, name:"iPhone Xs", link:"#", img:"https://apple.com/v/iphone/home/z/images/chapternav/iphonexs_large.svg" },
             { id:2, name:"iPhone XR", link:"#", img:"https://apple.com/v/iphone/home/z/images/chapternav/iphonexr_large.svg" },
@@ -51,7 +51,7 @@ export default navData = [
     {
         id : 4,
         Name : "Watch",
-        link : "#",
+        link : "/watch",
         subLinks : [
             { id:1, name:"Apple Watch Series 4", link:"#", img:"https://apple.com/v/watch/home/n/images/watch_nav_series_2_large.svg" },
             { id:2, name:"Apple Watch Nicke+", link:"#", img:"https://apple.com/v/watch/home/n/images/watch_nav_nike_large.svg" },
@@ -66,7 +66,7 @@ export default navData = [
     {
         id : 5,
         Name : "TV",
-        link : "#",
+        link : "/tv",
         subLinks : [
             { id:1, name:"Apple TV app", link:"#", img:"https://apple.com/v/watch/home/n/images/watch_nav_compare_large.svg" },
             { id:2, name:"Apple TV+", link:"#", img:"https://apple.com/v/tv/home/g/images/home/apple_tv_plus_dark__fntbqaxjuouy_large.svg" },
@@ -79,7 +79,7 @@ export default navData = [
     {
         id : 6,
         Name : "Music",
-        link : "#",
+        link : "/music",
         subLinks : [
             { id:1, name:"Apple Music", link:"#", img:"https://apple.com/v/music/h/images/overview/icons/apple_music_large.svg" },
             { id:2, name:"iTunes", link:"#", img:"https://apple.com/v/music/h/images/overview/icons/itunes_large.svg" },
@@ -90,6 +90,6 @@ export default navData = [
             { id:7, name:"Gift Cards", link:"#", img:"https://apple.com/v/music/h/images/overview/icons/gift_cards_large.svg" },
 
         ]
-    },
+    }
 
 ]
